@@ -119,6 +119,10 @@ EJ: git clone https://github.com/fdepablo/WsEntornosDesarrolloTelefonica.git
 23) Si queremos descarganos la ultima version (commits) del repositorio
 podemos ejecutar el comando -> git pull.
 
+24) Nadie podra trabajar con vuestro ws (es decir, hacer commits, pero si
+clones o pulls) a no ser que le demos permiso. Para ello hay que ir 
+a la parte de settings del workspace y add el usuario en "manage access".
+
 
 
 
