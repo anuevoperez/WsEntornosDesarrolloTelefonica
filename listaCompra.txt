@@ -5,3 +5,7 @@ lechuga
 pepino
 agucate
 tomates
+hummus
+setas
+aguacates
+calabacin
