@@ -123,6 +123,47 @@ podemos ejecutar el comando -> git pull.
 clones o pulls) a no ser que le demos permiso. Para ello hay que ir 
 a la parte de settings del workspace y add el usuario en "manage access".
 
+25) Una de las mejores maneras de trabajar en un entorno colaborativo podría
+ser que cada integrante trabaje sobre una rama propia, e ir fusionando sus
+cambios con la rama master. Podriamos hacer los siguientes pasos:
+	1) Cada integrante del equipo se crea un rama propia local
+	Ej: git checkout -b felix_desarrollo
+	2) El integrante hace el desarrollo previsto con su rama
+	Ej: Hace los cambios y luego hace los commits que hagan falta
+	git add .
+	git commit -m "descripcion del cambio"
+	3) Una vez que haya acabado de hacer el desarrolo y los commits con suç
+	rama, nos cambiamos a la rama master, y ahi nos bajamos los posibles
+	cambios que hayan hecho los demas integrantes del equipo.
+	Ej: git checkout master
+	git pull 
+	4) Fusionamos la rama master con nuestra rama particular para hacer
+	un merge de los cambios
+	Ej: git merge felix_desarrollo
+	5) Fusinar los cambios de la rama master con la rama nuestra de 
+	desarrollo, para poder continuar luego con nuestros desarrollos
+	Ej: git checkout felix_desarrollo
+	git merge master
+	6) Cambiar al master y subir los cambios al repositorio remoto
+	Ej: git checkout master
+	git push origin master
+	7) Optativo, podriamos subir nuestra rama a origin para que la viesen
+	otros integrantes del equipo. 
+	Ej: git push origin felix_desarrollo
+	
+	
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
