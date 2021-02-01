@@ -150,8 +150,15 @@ cambios con la rama master. Podriamos hacer los siguientes pasos:
 	7) Optativo, podriamos subir nuestra rama a origin para que la viesen
 	otros integrantes del equipo. 
 	Ej: git push origin felix_desarrollo
-	
-	
+
+26) Otra manera de trabar colaborativamente, es hacer un "fork" desde 
+github a otro repositorio remoto para hacernos una copia exacta del 
+repositorio al que estamos haciendo "fork", a partir de aqui nosotros
+podremos desarrollar en nuestro repositorio los cambios que queramos.
+En un momento dado podriamos solicitar un "pull request" al reposotorio
+original con los cambios que estimemos oportunos. El dueño del repositorio
+remoto orignal tendrá la ultima palabra sobre si acepta o no acepta el
+"pull request" que le estamos solicitando.
 
 
 
